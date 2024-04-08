@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+body {
+  display: flex;
+  margin: 0;
+  font-family: system-ui;
+}
+.boxes-wrap {
+  display: flex;
+  width: 100%;
+  gap: 2px;
+  margin-top: 30px;
+}
+.box {
+  width: 50px;
+  border: 1px solid black;
+  aspect-ratio: 1;
+}
+.amount {
+  font-size: 10px;
+  line-height: 10px;
+  /* height: 10px; */
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-align: center;
+}
